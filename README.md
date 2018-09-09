@@ -20,6 +20,7 @@ observables.subscribe(
 # RxJs. Operators.
 *Operators tak your observable and return a new observable.*
 
+## Familiar:
  - **``map``** - regular map for stream data;  
  - **``filter``** - pass only for data with correct conditions;  
  - **``debounceTime``** - like debounce;  
@@ -31,8 +32,8 @@ observables.subscribe(
  - **``mergeMap``** - can combine data from two Observables;  
  - **``switchMap``** - allow to trigger some values emission whenever another observable emits a value;  
 
-# Not used yet:
- - **``takeUntil``* - two observables, emit first until second provided observable values;  
+## Not used yet:
+ - **``takeUntil``** - two observables, emit first until second provided observable values;  
  - **``combineLatest``** - when any observable emits a value, emit the latest value from each;
  - **``concat``** - subscribe to observables in order as previous completes, emit values;  
  - **``tap``** - transparently perform actions or side-effects, such as logging;  

@@ -66,6 +66,8 @@ observable.subscribe({
  - **``pairwise``** - emit the previous and current values as an array;  
  - **``combineLatest``** - when any observable emits a value, emit the latest value from each.  
  - **``concatMap``** - map values to inner observable, subscribe and emit in order;  
+ - **``race``** - the observable to emit first is used;  
+ - **``ignoreElements``** - ignore everything but complete and error;  
  
  ----------
  
